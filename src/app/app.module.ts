@@ -6,7 +6,9 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { JoinnowComponent } from './joinnow/joinnow.component';
+import { BookingComponent } from './booking/booking.component';
 import { AboutComponent } from './about/about.component';
+
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     LoginComponent,
     JoinnowComponent,
+    BookingComponent,
     AboutComponent,
+    
 
   ],
   imports: [
