@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using TravelRepository;
 
 namespace TravelSiteApiProject
 {
@@ -25,8 +26,11 @@ namespace TravelSiteApiProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-        }
+
+      services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
+
+      services.AddTransient<IRegisterService,RegisterService>();
+    }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

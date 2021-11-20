@@ -4,5 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RegisterModels\RegisterModels.csproj" />
+    <ProjectReference Include="..\SqlConnectionClass\SqlConnectionClass.csproj" />
+    <ProjectReference Include="..\TravelRepository\TravelRepository.csproj" />
+  </ItemGroup>
+
 
 </Project>
