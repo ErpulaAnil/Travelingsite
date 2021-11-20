@@ -1,0 +1,15 @@
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.csproj.AssemblyReference.cache
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.AssemblyInfoInputs.cache
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.AssemblyInfo.cs
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.csproj.CoreCompileInputs.cache
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\TravelRepository.deps.json
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\TravelRepository.dll
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\TravelRepository.pdb
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\RegisterModels.dll
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\SqlConnectionClass.dll
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\RegisterModels.pdb
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\bin\Debug\netcoreapp3.1\SqlConnectionClass.pdb
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.csproj.CopyComplete
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.dll
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\TravelRepository\obj\Debug\netcoreapp3.1\TravelRepository.pdb
