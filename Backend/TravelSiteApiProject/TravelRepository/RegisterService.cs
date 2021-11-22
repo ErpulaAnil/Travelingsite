@@ -22,7 +22,7 @@ namespace TravelRepository
       bool isSuccess = false;
       try
       {
-        using (_command = new SqlCommand($"INSERT INTO RegisterTable (EmailId,PhoneNumber,CreatePassword,ConfirmPassword,Name,Gender,Age,Nationality) VALUES ('{_travelRegister.EmailId}', {_travelRegister.EmailId}',{_travelRegister.PhoneNumber}',{_travelRegister.CreatePassword}',{_travelRegister.ConfirmPassword}',{_travelRegister.Name}',{_travelRegister.Gender}',{_travelRegister.Age}',{_travelRegister.Nationality})", _connection))
+        using (_command = new SqlCommand($"INSERT INTO RegisterTable (EmailId,PhoneNumber,CreatePassword,ConfirmPassword,Name,Gender,Age,Nationality) VALUES ('{_travelRegister.EmailId}',{_travelRegister.PhoneNumber}',{_travelRegister.CreatePassword}',{_travelRegister.ConfirmPassword}',{_travelRegister.Name}',{_travelRegister.Gender}',{_travelRegister.Age}',{_travelRegister.Nationality})", _connection))
         {
           if (_connection.State == System.Data.ConnectionState.Closed)
             _connection.Open();
@@ -78,6 +78,58 @@ namespace TravelRepository
       return _travelrigister;
     }
 
-  
+    public bool ForgetPassword(string _confirmpassword)
+    {
+      bool isSuccess = false;
+      try
+      {
+        using (_command = new SqlCommand($"UPDATE RegisterTable SET ConfirmPassword = NewPassword WHERE Exists (select a.ConfirmPassword from RegisterTable a, RegisterTable b where a.ConfirmPassword = b.ConfirmPassword) = {_confirmpassword}", _connection))
+        {
+          if (_connection.State == System.Data.ConnectionState.Closed)
+            _connection.Open();
+
+          _command.ExecuteNonQuery();
+
+          isSuccess = true;
+        }
+      }
+      catch (Exception ex)
+      {
+        throw new TravelException(ex.Message, ex);
+      }
+      finally
+      {
+        if (_connection.State == System.Data.ConnectionState.Open)
+          _connection.Close();
+      }
+      return isSuccess;
+    }
+    public bool BookingTable(TravelRegister _travelRegister)
+    {
+      bool isSuccess = false;
+      try
+      {
+        using (_command = new SqlCommand($"INSERT INTO BookingTable (Name,PhoneNumber,From,To,NoofPassengers,DateofJourney,DateofDeparture,Exists (select PhoneNumber from RegisterTable) ('{_travelRegister.Name}',{_travelRegister.PhoneNumber}',{_travelRegister.From}',{_travelRegister.To}',{_travelRegister.Name}',{_travelRegister.Gender}',{_travelRegister.Age}',{_travelRegister.Nationality})", _connection))
+        {
+          if (_connection.State == System.Data.ConnectionState.Closed)
+            _connection.Open();
+
+          _command.ExecuteNonQuery();
+
+          isSuccess = true;
+        }
+      }
+      catch (Exception ex)
+      {
+        throw new TravelException(ex.Message, ex);
+      }
+      finally
+      {
+        if (_connection.State == System.Data.ConnectionState.Open)
+          _connection.Close();
+      }
+
+      return isSuccess;
+    }
   }
 }
