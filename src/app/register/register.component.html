@@ -9,53 +9,51 @@
           type="email id"
           class="form-control"
           id="exampleInput email id"
-          (keyup)="onKey($event, 'email')"
+          (keyup)="onkey($event,'email')"
         />
-        <p *ngIf="!valid.email" class="text-red-500 text-xs italic">Your mail is incorrect</p>
+        <p *ngIf="!valid.email" class="error-message">Your mail is incorrect</p>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Phone number</label>
         <input
-          type="Phone number"
-          class="form-control"
-          id="exampleInput Phone number"
-          (keyup)="onKey($event, 'phonenumber')"
+          type= "tel"
+          class= "form-control"
+          id= "exampleInput Phone number"
+          (keyup)="onkey($event, 'phonenumber')"
         />
-        <p *ngIf="!valid.phonenumber" class="text-red-500 text-xs italic">Incorrect phonenumber</p>
+        <p *ngIf="!valid.phonenumber" class="error-message">Incorrect phonenumber</p>
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Create Password</label>
         <input
-          type="Create Password"
+          type="Password"
           class="form-control"
           id="exampleInput Create Password"
-          (keyup)="onKey($event, 'password')"
+          (keyup)="onkey($event,'password')"
         />
       </div>
       <div class="form-group">
         <label for="exampleInputPassword1">Confirm Password</label>
         <input
-          type="Confirm Password"
+          type="Password"
           class="form-control"
-          id="exampleInput Confirm Password"
-          (keyup)="onKey($event, 'password')"
+          id="exampleInput confirmPassword"
+          (keyup)="onkey($event, 'confirmPassword')"
         />
-        <p *ngIf="!valid.password" class="text-red-500 text-xs italic">incorrect password</p>
+        <p *ngIf="!valid.password" class="error-message">incorrect password</p>
       </div>
       <p>Passenger Information</p>
       <div class="form-group">
         <label for="exampleInputPassword1">Name</label>
-        <input type="Name" class="form-control" id="exampleInputName" (keyup)="onKey($event, 'name')"/>
-        <p *ngIf="!valid.name" class="text-red-500 text-xs italic">Username should consist more than five characters</p>
+        <input type="Name" class="form-control" id="exampleInputName" (keyup)="onkey($event,'username')"/>
+        <p *ngIf="!valid.username" class="error-message">Username should consist more than five characters</p>
       </div>
       <div class="form-group">
-        <label for="exampleInput">Gender</label>
-        <input
-          type="Gender"
-          class="form-control"
-          id="exampleInputGender"
-          aria-describedby="GenderHelp"
-        />
+        <label for="exampleInput">Gender</label><br>
+        <input type="radio" id="MALE" name="GENDER" value="MALE">
+         <label for="MALE">MALE</label>
+         <input type="radio" id="FEMALE" name="GENDER" value="FEMALE">
+         <label for="FEMALE">FEMALE</label><br>
       </div>
       <div class="form-group">
         <label for="exampleInputAge">Age</label>
