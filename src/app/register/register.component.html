@@ -1,45 +1,88 @@
 <section class="joinnow">
   <div class="login col-lg-4 m-auto shadow-lg">
     <h1>Create Account</h1>
-      <form>
-        <p>Contact Details</p>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Email Id</label>
-          <input type="email id" class="form-control" id="exampleInput email id">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Phone number</label>
-          <input type="Phone number" class="form-control" id="exampleInput Phone number">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Create Password</label>
-          <input type="Create Password" class="form-control" id="exampleInput Create Password">
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Confirm Password</label>
-          <input type="Confirm Password" class="form-control" id="exampleInput Confirm Password">
-        </div>
-        <p>Passenger Information</p>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Name</label>
-          <input type="Name" class="form-control" id="exampleInputName">
-        </div>
-          <div class="form-group">
-            <label for="exampleInput">Gender</label>
-            <input type="Gender" class="form-control" id="exampleInputGender" aria-describedby="GenderHelp">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputAge">Age</label>
-            <input type="Age" class="form-control" id="exampleInputAge" aria-describedby="AgeHelp">
-          </div>
-          <div class="form-group">
-            <label for="exampleInputNationality">Nationality</label>
-            <input type="Nationality" class="form-control" id="exampleInputNationality" aria-describedby="NationalityHelp">
-          </div>
-         
-          
-          <button type="submit" class="btn btn-primary col-lg-12" routerLink="/login">Create account</button>
-        </form>
+    <form>
+      <p>Contact Details</p>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Email Id</label>
+        <input
+          type="email id"
+          class="form-control"
+          id="exampleInput email id"
+          (keyup)="onKey($event, 'email')"
+        />
+        <p *ngIf="!valid.email" class="text-red-500 text-xs italic">Your mail is incorrect</p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Phone number</label>
+        <input
+          type="Phone number"
+          class="form-control"
+          id="exampleInput Phone number"
+          (keyup)="onKey($event, 'phonenumber')"
+        />
+        <p *ngIf="!valid.phonenumber" class="text-red-500 text-xs italic">Incorrect phonenumber</p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Create Password</label>
+        <input
+          type="Create Password"
+          class="form-control"
+          id="exampleInput Create Password"
+          (keyup)="onKey($event, 'password')"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Confirm Password</label>
+        <input
+          type="Confirm Password"
+          class="form-control"
+          id="exampleInput Confirm Password"
+          (keyup)="onKey($event, 'password')"
+        />
+        <p *ngIf="!valid.password" class="text-red-500 text-xs italic">incorrect password</p>
+      </div>
+      <p>Passenger Information</p>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="Name" class="form-control" id="exampleInputName" (keyup)="onKey($event, 'name')"/>
+        <p *ngIf="!valid.name" class="text-red-500 text-xs italic">Username should consist more than five characters</p>
+      </div>
+      <div class="form-group">
+        <label for="exampleInput">Gender</label>
+        <input
+          type="Gender"
+          class="form-control"
+          id="exampleInputGender"
+          aria-describedby="GenderHelp"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputAge">Age</label>
+        <input
+          type="Age"
+          class="form-control"
+          id="exampleInputAge"
+          aria-describedby="AgeHelp"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputNationality">Nationality</label>
+        <input
+          type="Nationality"
+          class="form-control"
+          id="exampleInputNationality"
+          aria-describedby="NationalityHelp"
+        />
+      </div>
 
+      <button
+        type="submit"
+        class="btn btn-primary col-lg-12"
+        routerLink="/login"
+      >
+        Create account
+      </button>
+    </form>
   </div>
 </section>
