@@ -9,6 +9,7 @@ import { RegisterComponent } from './register/register.component';
 import { BookingComponent } from './booking/booking.component';
 import { AboutComponent } from './about/about.component';
 import { PasswordComponent } from './password/password.component';
+import { CheckComponent } from './check/check.component';
 
 
 
@@ -21,6 +22,7 @@ import { PasswordComponent } from './password/password.component';
     BookingComponent,
     AboutComponent,
     PasswordComponent,
+    CheckComponent,
     
 
   ],
