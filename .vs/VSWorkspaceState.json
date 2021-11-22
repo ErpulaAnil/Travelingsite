@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend\\TravelSiteApiProject",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\bin",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\bin\\Release",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\bin\\Release\\netcoreapp3.1",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\obj",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\obj\\Debug",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\obj\\Debug\\netcoreapp3.1",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\obj\\Release",
+    "\\Backend\\TravelSiteApiProject\\TravelRepository\\obj\\Release\\netcoreapp3.1"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -19,5 +19,13 @@ namespace RegisterModels
     public int Age { get; set; }
 
     public string Nationality { get; set; }
+
+   // public string OldPassword { get; set; }
+
+    public string NewPassword { get; set; }
+
+   public DateTime From { get; set; }
+
+   public DateTime To { get; set; }
   }
 }

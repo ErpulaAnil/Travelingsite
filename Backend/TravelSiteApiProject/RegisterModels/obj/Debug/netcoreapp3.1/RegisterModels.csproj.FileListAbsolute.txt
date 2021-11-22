@@ -7,3 +7,4 @@ C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\Re
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\RegisterModels\obj\Debug\netcoreapp3.1\RegisterModels.csproj.CoreCompileInputs.cache
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\RegisterModels\obj\Debug\netcoreapp3.1\RegisterModels.dll
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\RegisterModels\obj\Debug\netcoreapp3.1\RegisterModels.pdb
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\RegisterModels\obj\Debug\netcoreapp3.1\RegisterModels.csproj.AssemblyReference.cache

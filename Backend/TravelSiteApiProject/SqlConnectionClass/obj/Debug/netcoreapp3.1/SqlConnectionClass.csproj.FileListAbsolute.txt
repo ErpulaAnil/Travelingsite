@@ -7,3 +7,4 @@ C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\Sq
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\SqlConnectionClass\obj\Debug\netcoreapp3.1\SqlConnectionClass.csproj.CoreCompileInputs.cache
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\SqlConnectionClass\obj\Debug\netcoreapp3.1\SqlConnectionClass.dll
 C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\SqlConnectionClass\obj\Debug\netcoreapp3.1\SqlConnectionClass.pdb
+C:\Users\aerpula\backend_traveling\Travelingsite\Backend\TravelSiteApiProject\SqlConnectionClass\obj\Debug\netcoreapp3.1\SqlConnectionClass.csproj.AssemblyReference.cache
