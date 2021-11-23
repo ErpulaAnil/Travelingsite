@@ -1,0 +1,12 @@
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.deps.json
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.dll
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\ref\DatabaseConnection.dll
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.pdb
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.AssemblyInfoInputs.cache
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.AssemblyInfo.cs
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.csproj.CoreCompileInputs.cache
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.dll
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\ref\DatabaseConnection.dll
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.pdb
+D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.csproj.AssemblyReference.cache
