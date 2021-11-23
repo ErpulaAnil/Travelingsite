@@ -7,6 +7,8 @@ import { RegisterComponent } from './register/register.component';
 import { BookingComponent } from './booking/booking.component';
 import { PasswordComponent } from './password/password.component';
 import { CheckComponent } from './check/check.component';
+import { PassengerInfoComponent } from './passenger-info/passenger-info.component';
+
 
 
 const routes: Routes = [
@@ -16,7 +18,8 @@ const routes: Routes = [
   {path:'booking',component:BookingComponent},
   {path:'about',component:AboutComponent},
   {path:'password',component:PasswordComponent},
-  {path:'check',component:CheckComponent}
+  {path:'check',component:CheckComponent},
+  {path:'passenger-info',component:PassengerInfoComponent}
   
   
 ];
