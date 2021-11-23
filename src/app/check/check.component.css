@@ -9,19 +9,7 @@
     padding: 60px 2% 20px 2%;
 }
  
-.p-headind{
-    font-family: calibri;
-    font-size: 1.7rem;
-    text-align: center;
-    color:#FFFFFF;
-    font-weight: 400;
-    padding: 10px 20px;
-    background-color: #292929;
-    letter-spacing: 2px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
-    
-}
+
 .p-box{
  
     background-color: #1F1F1F;

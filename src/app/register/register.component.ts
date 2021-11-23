@@ -10,6 +10,7 @@ export class RegisterComponent implements OnInit {
   phonenumber = "";
   password = "";
   confirmPassword = "";
+  age = "";
 
   valid = {
   username : true,
@@ -18,6 +19,7 @@ export class RegisterComponent implements OnInit {
   phonenumber : true,
   password : true,
   confirmPassword : true,
+  age : true
   }
   constructor() { }
 
@@ -28,6 +30,7 @@ export class RegisterComponent implements OnInit {
     const usernamePattern = /^[a-zA-Z]+$/
     const emailPattern = /\S+@\S+\.\S+/;
     const mobilePattern = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
+    const agePattern = /[0-9]/
     if (type === 'username') {
       if (this.username.length < 3 || this.username.length>=10) {
         this.valid.username = false;
@@ -39,6 +42,12 @@ export class RegisterComponent implements OnInit {
         this.valid.phonenumber = false
       }else{
           this.valid.phonenumber = mobilePattern.test(this.phonenumber)
+      }
+    } else if(type === "age"){
+      if(this.age.length<2 || this.age.length>2){
+        this.valid.age = false
+      }else{
+          this.valid.age = agePattern.test(this.age)
       }
     }
      else if (type === 'email') {
@@ -64,6 +73,8 @@ export class RegisterComponent implements OnInit {
         this.confirmPassword = event.target.value;
       }else if (type === "phonenumber"){
         this.phonenumber = event.target.value;
+      }else if (type === "age"){
+        this.age = event.target.value;
       }
       this.validate(type)
     }
