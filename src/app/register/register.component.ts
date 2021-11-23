@@ -4,6 +4,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
+/**
+ * @description : 
+ */
 export class RegisterComponent implements OnInit {
   username = "";
   email = "";
@@ -32,7 +35,7 @@ export class RegisterComponent implements OnInit {
     const mobilePattern = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
     const agePattern = /[0-9]/
     if (type === 'username') {
-      if (this.username.length < 3 || this.username.length>=10) {
+      if (this.username.length < 4 || this.username.length>=10) {
         this.valid.username = false;
       } else {
         this.valid.username = usernamePattern.test(this.username);
@@ -60,8 +63,9 @@ export class RegisterComponent implements OnInit {
       }
     }
   }
+  
 
-  //onkey function
+  //onkey function which is used to connect to the html file
     onkey(event:any , type:string){
       if(type === 'username'){
        this.username = event.target.value;
