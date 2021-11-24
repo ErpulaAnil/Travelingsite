@@ -6,7 +6,7 @@ import { Observable } from "rxjs";
   providedIn: 'root'
 })
 export class SharedService {
-    readonly APIUrl = "http://localhost:5000/api";
+  readonly APIUrl = "http://localhost:47667/api/Travel";
     constructor(private http: HttpClient) {}
     getStudentList(): Observable < any[] > {
         return this.http.get < any > (this.APIUrl + '/Student');

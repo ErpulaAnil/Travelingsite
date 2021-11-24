@@ -83,7 +83,7 @@ namespace Travelling_Project.Controllers
         }
 
         //Generating the EndPoint for GetBookingCustomers
-        [HttpGet, Route("api/Student/GetBookingCustomers")]
+        [HttpGet, Route("api/Travel/GetBookingCustomers")]
         public IEnumerable<BookingClass> GetTicketBookingCustomers()
         {
             return _customerServices.GetTicketBookingCustomers();
