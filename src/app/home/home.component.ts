@@ -1,3 +1,8 @@
+/**
+ * @description The below code is used to display the landing page
+ * importing  Component, OnInit  from '@angular/core
+ * importing html and css from about home folder
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({

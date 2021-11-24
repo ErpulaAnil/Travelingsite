@@ -1,3 +1,9 @@
+/**
+ * @description The below code is used to change the password
+ * importing  Component, OnInit  from '@angular/core'
+ * importing Swal from 'sweetalert2'
+ * importing html and css from about password folder
+ */
 import { Component, OnInit } from '@angular/core';
 import Swal from 'sweetalert2';
 
@@ -6,11 +12,18 @@ import Swal from 'sweetalert2';
   templateUrl: './password.component.html',
   styleUrls: ['./password.component.css']
 })
+
+/**
+ * @description : created a class component with the name PasswordComponent  
+ * shows the booking data 
+ * @params : {string}
+ * @returns : non
+ */
 export class PasswordComponent implements OnInit {
   email = '';
 
-  valid ={
-    email : true,
+  valid = {
+    email: true,
   }
 
   constructor() { }
@@ -32,7 +45,7 @@ export class PasswordComponent implements OnInit {
     }
     this.validate(type)
   }
-  successNotification(){
+  successNotification() {
     Swal.fire('Password has been successfully updated', 'We have been informed!', 'success')
   }
 }

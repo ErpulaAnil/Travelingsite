@@ -1,3 +1,8 @@
+/**
+ * @description The below code is used to display the availability of busses
+ * importing  Component, OnInit  from '@angular/core
+ * importing html and css from about check folder
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
