@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {}
+    "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {}
   },
   "projects": {
-    "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
+    "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+        "projectUniqueName": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
         "projectName": "ApplicationServices",
-        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\obj\\",
+        "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\aerpula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vvoggu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aerpula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -32,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
-                "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
+              "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+                "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
               },
-              "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
-                "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj"
+              "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
+                "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj"
               }
             }
           }
@@ -71,25 +67,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+    "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+        "projectUniqueName": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
         "projectName": "DatabaseConnection",
-        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
-        "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\obj\\",
+        "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+        "packagesPath": "C:\\Users\\aerpula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vvoggu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aerpula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -129,25 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
+    "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
+        "projectUniqueName": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
         "projectName": "Registration",
-        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
-        "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\obj\\",
+        "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
+        "packagesPath": "C:\\Users\\aerpula\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vvoggu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aerpula\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,7 +175,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
