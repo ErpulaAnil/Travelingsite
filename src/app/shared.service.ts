@@ -8,28 +8,31 @@ import { Observable } from "rxjs";
 export class SharedService {
   readonly APIUrl = "http://localhost:47667/api/Travel";
     constructor(private http: HttpClient) {}
-    getStudentList(): Observable < any[] > {
-        return this.http.get < any > (this.APIUrl + '/Student');
+    Register(): Observable < any[] > {
+        return this.http.get < any > (this.APIUrl + '/Register');
     }
-    addStudent(val: any) {
-        return this.http.post(this.APIUrl + '/Student', val);
+    Login(val: any) {
+        return this.http.post(this.APIUrl + '/Login', val);
     }
-    updateStudent(val: any) {
-        return this.http.put(this.APIUrl + '/Student', val);
+    ForgotPWd(val: any) {
+        return this.http.put(this.APIUrl + '/ForgotPassword', val);
     }
-    deleteStudent(id: any) {
-        return this.http.delete(this.APIUrl + '/Student/' + id);
+    DeletingAccount(id: any) {
+        return this.http.delete(this.APIUrl + '/DeleteAccount/' + id);
     }
-    getDepartmentList(): Observable < any[] > {
-        return this.http.get < any > (this.APIUrl + '/Department');
+    Booking(): Observable<any[]> {
+        return this.http.get<any>(this.APIUrl + '/TicketBooking');
     }
-    addDepartment(val: any) {
-        return this.http.post(this.APIUrl + '/Department', val);
+    GetRegisteredCustomers(): Observable < any[] > {
+        return this.http.get<any>(this.APIUrl + '/GetRegisteredCustomers');
     }
-    updateDepartment(val: any) {
-        return this.http.put(this.APIUrl + '/Department', val);
+    GetTicketBookingCustomers(): Observable<any[]> {
+        return this.http.get<any>(this.APIUrl + '/GetBookingCustomers');
     }
-    deleteDepartment(id: any) {
-        return this.http.delete(this.APIUrl + '/Department/' + id);
+    CancelingBooking(val: any) {
+        return this.http.post(this.APIUrl + '/CancelBooking', val);
+    }
+    ResettingPassword(val: any) {
+        return this.http.put(this.APIUrl + '/ResetPassword', val);
     }
 }
