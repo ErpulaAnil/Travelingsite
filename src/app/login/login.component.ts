@@ -1,9 +1,22 @@
+/**
+ * @description The below code is used to display the login page
+ * importing  Component, OnInit  from '@angular/core
+ * importing html and css from login folder
+ */
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-register',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
+/**
+ * @description created a class component with the name LoginComponent 
+ * wrote validation for the email inside the class component
+ * @params {string}
+ * @Return non
+ */
+
 export class LoginComponent implements OnInit {
   email = "";
 

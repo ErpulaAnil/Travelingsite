@@ -8,7 +8,7 @@
           class="form-control"
           id="exampleInputEmail1"
           aria-describedby="emailHelp"
-          (keyup)="onkey($event,'email')"
+          (keyup)="onkey($event, 'email')"
         />
         <p *ngIf="!valid.email" class="error-message">incorrect mailid</p>
       </div>
@@ -35,4 +35,3 @@
     <p>Dont have account? click here <a href="/register">Register</a></p>
   </div>
 </section>
-

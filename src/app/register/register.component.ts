@@ -1,11 +1,20 @@
+/**
+ * @description The below code is used to register
+ * importing  Component, OnInit  from '@angular/core'
+ * importing html and css from about register folder
+ */
 import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
+
 /**
- * @description : 
+ * @description : created a class component with the name RegisterComponent  
+ * validates the information given by the user
+ * @params : {string}
+ * @return : non
  */
 export class RegisterComponent implements OnInit {
   username = "";
@@ -16,13 +25,13 @@ export class RegisterComponent implements OnInit {
   age = "";
 
   valid = {
-  username : true,
-  lastname : true,
-  email : true,
-  phonenumber : true,
-  password : true,
-  confirmPassword : true,
-  age : true
+    username: true,
+    lastname: true,
+    email: true,
+    phonenumber: true,
+    password: true,
+    confirmPassword: true,
+    age: true
   }
   constructor() { }
 
@@ -35,25 +44,25 @@ export class RegisterComponent implements OnInit {
     const mobilePattern = /^(\+\d{1,2}\s?)?1?\-?\.?\s?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$/;
     const agePattern = /[0-9]/
     if (type === 'username') {
-      if (this.username.length < 4 || this.username.length>=10) {
+      if (this.username.length < 4 || this.username.length >= 10) {
         this.valid.username = false;
       } else {
         this.valid.username = usernamePattern.test(this.username);
       }
-    } else if(type === "phonenumber"){
-      if(this.phonenumber.length<10 || this.phonenumber.length>10){
+    } else if (type === "phonenumber") {
+      if (this.phonenumber.length < 10 || this.phonenumber.length > 10) {
         this.valid.phonenumber = false
-      }else{
-          this.valid.phonenumber = mobilePattern.test(this.phonenumber)
+      } else {
+        this.valid.phonenumber = mobilePattern.test(this.phonenumber)
       }
-    } else if(type === "age"){
-      if(this.age.length<2 || this.age.length>2){
+    } else if (type === "age") {
+      if (this.age.length < 2 || this.age.length > 2) {
         this.valid.age = false
-      }else{
-          this.valid.age = agePattern.test(this.age)
+      } else {
+        this.valid.age = agePattern.test(this.age)
       }
     }
-     else if (type === 'email') {
+    else if (type === 'email') {
       this.valid.email = emailPattern.test(this.email);
     } else if (type === ('confirmPassword' || 'password')) {
       if (this.password !== this.confirmPassword) {
@@ -63,23 +72,23 @@ export class RegisterComponent implements OnInit {
       }
     }
   }
-  
+
 
   //onkey function which is used to connect to the html file
-    onkey(event:any , type:string){
-      if(type === 'username'){
-       this.username = event.target.value;
-      }else if( type === "email"){
-        this.email = event.target.value;
-      }else if (type === "password"){
-        this.password = event.target.value;
-      }else if (type === "confirmPassword"){
-        this.confirmPassword = event.target.value;
-      }else if (type === "phonenumber"){
-        this.phonenumber = event.target.value;
-      }else if (type === "age"){
-        this.age = event.target.value;
-      }
-      this.validate(type)
+  onkey(event: any, type: string) {
+    if (type === 'username') {
+      this.username = event.target.value;
+    } else if (type === "email") {
+      this.email = event.target.value;
+    } else if (type === "password") {
+      this.password = event.target.value;
+    } else if (type === "confirmPassword") {
+      this.confirmPassword = event.target.value;
+    } else if (type === "phonenumber") {
+      this.phonenumber = event.target.value;
+    } else if (type === "age") {
+      this.age = event.target.value;
     }
+    this.validate(type)
+  }
 }
