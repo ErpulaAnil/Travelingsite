@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using ApplicationServices;
@@ -67,16 +67,18 @@ namespace Travelling_Project.Controllers
 
         //Generating the EndPoint for TicketBooking
         [HttpPost, Route("api/Travel/TicketBooking")]
-        public bool Booking(BookingClass _bookingClass)
+        public IEnumerable<BookingClass> Booking(BookingClass _bookingClass)
         {
+            List<BookingClass> getBooking = new List<BookingClass>();
             if (_customerServices.BookingTickets(_bookingClass))
             {
-                return true;
+                getBooking.Add(new BookingClass() { Name = _bookingClass.Name, PhnNo = _bookingClass.PhnNo, FromPlace = _bookingClass.FromPlace, ToPlace = _bookingClass.ToPlace, NoOfPassengers = _bookingClass.NoOfPassengers, DateOfJourney = _bookingClass.DateOfJourney, DateOfDeparture = _bookingClass.DateOfDeparture });
+                return getBooking;
             }
 
             else
             {
-                return false;
+                return getBooking;
             }
         }
 
