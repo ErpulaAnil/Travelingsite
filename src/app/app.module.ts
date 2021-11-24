@@ -11,7 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { PasswordComponent } from './password/password.component';
 import { CheckComponent } from './check/check.component';
 import { PassengerInfoComponent } from './passenger-info/passenger-info.component';
-
+import { HttpClientModule } from "@angular/common/http";
+import { SharedService } from "./shared.service";
+import { FormsModule,ReactiveFormsModule } from "@angular/forms";
 
 
 
@@ -28,13 +30,19 @@ import { PassengerInfoComponent } from './passenger-info/passenger-info.componen
     CheckComponent,
     PassengerInfoComponent,
     
+    
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
