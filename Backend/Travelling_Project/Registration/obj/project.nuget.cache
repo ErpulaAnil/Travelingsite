@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qGZLWZ9tFspzpZkdQAzXTrYu32qXz3UK7ENJKTX3irc25BrYaFKDthae9+7Jy3tmzk4WLZWIp9coYuFZ6KLJBA==",
+  "dgSpecHash": "nGDBkVXQ6bA6iER+OeLM3CuR3s0HxHP0XxxmRniCfErcQ+DcwN63825DOZK4ThCdxH7RIumojRTenUO2f42VVw==",
   "success": true,
-  "projectFilePath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj",
+  "projectFilePath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

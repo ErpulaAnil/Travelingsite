@@ -8,8 +8,8 @@ import { Observable } from "rxjs";
 export class SharedService {
   readonly APIUrl = "http://localhost:47667/api/Travel";
     constructor(private http: HttpClient) {}
-    Register(): Observable < any[] > {
-        return this.http.get < any > (this.APIUrl + '/Register');
+    Register(val: any) {
+        return this.http.post(this.APIUrl + '/Register', val);
     }
     Login(val: any) {
         return this.http.post(this.APIUrl + '/Login', val);

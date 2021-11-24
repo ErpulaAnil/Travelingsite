@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BP71Kos3eG7ylA7X6VgTxmaJTid69En8dskCfJeH3uRFJRGJ/BZB8eqz2Vz96ceHCTI31qTtQunzDVhJVRDRpw==",
+  "dgSpecHash": "Z0vw4PRhWDjYo5wazM+x0Em4DYaO9jrDRX584WhAby33vTYSxMQlrZFTxlb1Wv1lIpKgOc9hDMEPSqdTWGuJrQ==",
   "success": true,
-  "projectFilePath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+  "projectFilePath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

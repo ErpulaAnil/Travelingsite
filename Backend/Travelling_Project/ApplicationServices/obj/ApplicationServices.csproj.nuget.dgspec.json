@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {}
+    "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {}
   },
   "projects": {
-    "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
+    "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
         "projectName": "ApplicationServices",
-        "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
         "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\obj\\",
+        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
-                "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
+              "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+                "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
               },
-              "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj": {
-                "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj"
+              "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
+                "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+    "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
         "projectName": "DatabaseConnection",
-        "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
         "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\obj\\",
+        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -133,14 +133,14 @@
         }
       }
     },
-    "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj": {
+    "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj",
+        "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
         "projectName": "Registration",
-        "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj",
+        "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj",
         "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-        "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\obj\\",
+        "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

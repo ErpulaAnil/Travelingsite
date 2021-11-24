@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+      "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
       "projectName": "DatabaseConnection",
-      "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+      "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
       "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-      "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\obj\\",
+      "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

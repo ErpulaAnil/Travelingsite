@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Travelling_Project\\Travelling_Project.csproj",
+      "projectUniqueName": "D:\\GitPrograms\\Backend\\Travelling_Project\\Travelling_Project\\Travelling_Project.csproj",
       "projectName": "Travelling_Project",
-      "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Travelling_Project\\Travelling_Project.csproj",
+      "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Travelling_Project\\Travelling_Project.csproj",
       "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-      "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Travelling_Project\\obj\\",
+      "outputPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Travelling_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -719,14 +719,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
-              "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj"
+            "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj": {
+              "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj"
             },
-            "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
-              "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
+            "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+              "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
             },
-            "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj": {
-              "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj"
+            "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
+              "projectPath": "D:\\GitPrograms\\Backend\\Travelling_Project\\Registration\\Registration.csproj"
             }
           }
         }
