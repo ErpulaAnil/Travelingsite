@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Travelling_Project
-<<<<<<< HEAD
-build_property.ProjectDir = d:\gitprograms\Backend\Travelling_Project\Travelling_Project\
-=======
-build_property.ProjectDir = C:\Users\aerpula\Desktop\TravelSite\Backend\Travelling_Project\Travelling_Project\
->>>>>>> 2ea3f4ba6cbf4af6802604c4f7ea181ed4d60be7
+build_property.ProjectDir = D:\GitPrograms\Backend\Travelling_Project\Travelling_Project\

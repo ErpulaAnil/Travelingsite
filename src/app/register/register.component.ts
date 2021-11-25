@@ -105,7 +105,7 @@ export class RegisterComponent implements OnInit {
   this.registerObj.Name = this.data.confirmPassword;
   this.registerObj.Age = this.data.age;
 
-  console.log(this.registerObj)
+
   this.api.Register(this.registerObj)
   .subscribe(res =>{
     alert("success");
