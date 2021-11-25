@@ -12,7 +12,7 @@ import { PasswordComponent } from './password/password.component';
 import { CheckComponent } from './check/check.component';
 import { PassengerInfoComponent } from './passenger-info/passenger-info.component';
 import { HttpClientModule } from "@angular/common/http";
-import { SharedService } from "./shared.service";
+import { ApiService } from './shared/api.service';
 import { FormsModule,ReactiveFormsModule } from "@angular/forms";
 
 
@@ -41,7 +41,7 @@ import { FormsModule,ReactiveFormsModule } from "@angular/forms";
     ReactiveFormsModule
 
   ],
-  providers: [SharedService],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 

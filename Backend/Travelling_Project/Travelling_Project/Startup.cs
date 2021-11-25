@@ -57,7 +57,7 @@ namespace Travelling_Project
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllers();
+              endpoints.MapControllers();
             });
         }
     }
