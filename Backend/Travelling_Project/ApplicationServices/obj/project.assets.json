@@ -486,24 +486,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\vvoggu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\aerpula\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+      "projectUniqueName": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
       "projectName": "ApplicationServices",
-      "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
-      "packagesPath": "C:\\Users\\vvoggu\\.nuget\\packages\\",
-      "outputPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\ApplicationServices\\obj\\",
+      "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\ApplicationServices.csproj",
+      "packagesPath": "C:\\Users\\aerpula\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\ApplicationServices\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\vvoggu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\aerpula\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -517,11 +512,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
-              "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
+            "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj": {
+              "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj"
             },
-            "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj": {
-              "projectPath": "D:\\Moodle Submissions\\DotNet\\AspPrograms\\Travelling_Project\\Registration\\Registration.csproj"
+            "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj": {
+              "projectPath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\Registration\\Registration.csproj"
             }
           }
         }
@@ -556,7 +551,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

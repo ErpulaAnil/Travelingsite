@@ -10,3 +10,15 @@ D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\Registration\obj\Deb
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\Registration\obj\Debug\net5.0\ref\Registration.dll
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\Registration\obj\Debug\net5.0\Registration.pdb
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\Registration\obj\Debug\net5.0\Registration.csproj.AssemblyReference.cache
+D:\GitPrograms\Backend\Travelling_Project\Registration\bin\Debug\net5.0\Registration.deps.json
+D:\GitPrograms\Backend\Travelling_Project\Registration\bin\Debug\net5.0\Registration.dll
+D:\GitPrograms\Backend\Travelling_Project\Registration\bin\Debug\net5.0\ref\Registration.dll
+D:\GitPrograms\Backend\Travelling_Project\Registration\bin\Debug\net5.0\Registration.pdb
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.csproj.AssemblyReference.cache
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.AssemblyInfoInputs.cache
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.AssemblyInfo.cs
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.csproj.CoreCompileInputs.cache
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.dll
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\ref\Registration.dll
+D:\GitPrograms\Backend\Travelling_Project\Registration\obj\Debug\net5.0\Registration.pdb

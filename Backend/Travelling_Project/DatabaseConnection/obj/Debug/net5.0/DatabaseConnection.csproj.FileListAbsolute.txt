@@ -10,3 +10,15 @@ D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\o
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\ref\DatabaseConnection.dll
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.pdb
 D:\Moodle Submissions\DotNet\AspPrograms\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.csproj.AssemblyReference.cache
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.deps.json
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.dll
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\ref\DatabaseConnection.dll
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\bin\Debug\net5.0\DatabaseConnection.pdb
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.csproj.AssemblyReference.cache
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.AssemblyInfoInputs.cache
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.AssemblyInfo.cs
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.csproj.CoreCompileInputs.cache
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.dll
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\ref\DatabaseConnection.dll
+D:\GitPrograms\Backend\Travelling_Project\DatabaseConnection\obj\Debug\net5.0\DatabaseConnection.pdb
