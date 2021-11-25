@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data.SqlClient;
 using ApplicationServices;
 using DatabaseConnection;
@@ -129,7 +129,7 @@ namespace ApplicationServices
                     SqlDataReader reader = _command.ExecuteReader();
 
                     while (reader?.Read() ?? false)
-                        _customers.Add(new ApplicationRegistration() { EmailId = reader.GetString(1), PhnNo = reader.GetString(2), CreatePassword = reader.GetString(3), ConfirmPassword = reader.GetString(4), Name=reader.GetString(5), Gender=reader.GetString(6), Age=reader.GetInt32(7), Nationality=reader.GetString(8) });
+                        _customers.Add(new ApplicationRegistration() { EmailId = reader.GetString(1), PhnNo = reader.GetString(2), CreatePassword = reader.GetString(3), ConfirmPassword = reader.GetString(4), Name=reader.GetString(5), Gender=reader.GetString(6), Age=reader.GetString(7), Nationality=reader.GetString(8) });
                 }
             }
             catch (Exception ex)
