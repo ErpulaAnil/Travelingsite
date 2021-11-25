@@ -67,7 +67,7 @@
       <div class="form-group">
         <label for="exampleInputAge">Age</label>
         <input
-          type="Age"
+          type="Number"
           class="form-control"
           id="exampleInputAge"
           aria-describedby="AgeHelp"
@@ -87,6 +87,7 @@
 
       <button
         type="submit"
+        (click)="Register()"
         class="btn btn-primary col-lg-12"
         routerLink="/login"
       >
