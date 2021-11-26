@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Registration
 {
@@ -14,7 +14,7 @@ namespace Registration
             public string Name { get; set; }
             public string Gender { get; set; }
 
-            public int Age { get; set; }
+            public string Age { get; set; }
 
             public string Nationality { get; set; }
     }
@@ -62,7 +62,7 @@ namespace Registration
 
         public string Gender { get; set; }
 
-        public int Age { get; set; }
+        public string Age { get; set; }
 
         public string Nationality { get; set; }
     }

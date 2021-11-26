@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dn1n9j2LRiwU9HPNoAYjuQPaWWK1wj4dlLSz+haGNNOMw0pB74ddD8ut2Gq44pHhfwErNkPTjE3Kd/whbJuu1w==",
+  "dgSpecHash": "Z0vw4PRhWDjYo5wazM+x0Em4DYaO9jrDRX584WhAby33vTYSxMQlrZFTxlb1Wv1lIpKgOc9hDMEPSqdTWGuJrQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aerpula\\Desktop\\TravelSite\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
+  "projectFilePath": "D:\\GitPrograms\\Backend\\Travelling_Project\\DatabaseConnection\\DatabaseConnection.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
