@@ -13,6 +13,7 @@ export class ApiService{
 
  
   Register(empObj : any){
+    console.log("empobj.....",empObj);
     //return this._http.post<any>(this.loginAPIUrl+"signup",empObj)
     return this._http.post<any>(this.APIUrl+'/Register',empObj)
   }

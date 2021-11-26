@@ -22,12 +22,12 @@ import { HttpClient } from '@angular/common/http';
  */
 export class RegisterComponent implements OnInit {
   public data = {
-  username : "",
-  email : "",
-  phonenumber : "",
-  password : "",
-  confirmPassword : "",
-  age : "",
+    username: "",
+    email: "",
+    phonenumber: "",
+    password: "",
+    confirmPassword: "",
+    age: "",
   }
   valid = {
     username: true,
@@ -39,7 +39,7 @@ export class RegisterComponent implements OnInit {
     age: true,
   }
   public registerObj = new UserModel();
-  constructor( private http : HttpClient,private router : Router, private api: ApiService) { }
+  constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
 
   ngOnInit(): void {
   }
@@ -97,18 +97,26 @@ export class RegisterComponent implements OnInit {
     }
     this.validate(type)
   }
-  Register(){
-  this.registerObj.UserName = this.data.username;
-  this.registerObj.Emailid = this.data.email;
-  this.registerObj.CreatePassword = this.data.password;
-  this.registerObj.ConfirmPassword = this.data.phonenumber;
-  this.registerObj.Name = this.data.confirmPassword;
-  this.registerObj.Age = this.data.age;
+  Register() {
+    const formData = new FormData();
+    formData.append("UserName",this.data.username)
+    formData.append("Emailid",this.data.email)
+    formData.append("CreatePassword",this.data.password)
+    formData.append("Name",this.data.username)
+    formData.append("Age",this.data.age)
+    formData.append("phnNo",this.data.phonenumber)
 
-  console.log(this.registerObj)
-  this.api.Register(this.registerObj)
-  .subscribe(res =>{
-    alert("success");
-  })
+    this.registerObj.UserName = this.data.username;
+    this.registerObj.Emailid = this.data.email;
+    this.registerObj.CreatePassword = this.data.password;
+    this.registerObj.ConfirmPassword = this.data.phonenumber;
+    this.registerObj.Name = this.data.confirmPassword;
+    this.registerObj.Age = this.data.age;
+
+    console.log(this.registerObj)
+    this.api.Register(formData)
+      .subscribe(res => {
+        alert("success");
+      })
   }
 }
