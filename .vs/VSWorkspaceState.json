@@ -1,16 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\.angular",
     "\\Backend",
     "\\Backend\\Travelling_Project",
-    "\\Backend\\Travelling_Project\\ApplicationServices",
+    "\\Backend\\Travelling_Project\\DatabaseConnection",
+    "\\Backend\\Travelling_Project\\Registration",
     "\\Backend\\Travelling_Project\\Travelling_Project",
     "\\Backend\\Travelling_Project\\Travelling_Project\\Controllers",
     "\\Backend\\Travelling_Project\\Travelling_Project\\Properties",
     "\\src",
     "\\src\\app"
   ],
-  "SelectedNode": "\\Backend\\Travelling_Project\\Travelling_Project\\Controllers\\TravelController.cs",
+  "SelectedNode": "\\Backend\\Travelling_Project\\Travelling_Project\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
