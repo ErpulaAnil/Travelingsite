@@ -106,13 +106,6 @@ export class RegisterComponent implements OnInit {
     formData.append("Age",this.data.age)
     formData.append("phnNo",this.data.phonenumber)
 
-    this.registerObj.UserName = this.data.username;
-    this.registerObj.Emailid = this.data.email;
-    this.registerObj.CreatePassword = this.data.password;
-    this.registerObj.ConfirmPassword = this.data.phonenumber;
-    this.registerObj.Name = this.data.confirmPassword;
-    this.registerObj.Age = this.data.age;
-
     console.log(this.registerObj)
     this.api.Register(formData)
       .subscribe(res => {
