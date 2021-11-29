@@ -8,11 +8,10 @@ export class UserModel{
     Gender!:string;
     Age!:string;
     Nationality!:string;
-    name!:string;
-    phonenumber!:string;
-    from!:string;
-    to!:string;
-    noofpassengers!:string;
-    dateofjourney!:string;
-    dateofdeparture!:string;
+    PhnNo!:string;
+    FromPlace!:string;
+    ToPlace!:string;
+    NoOfPassengers!:string;
+    DateOfJourney!:string;
+    DateOfDeparture!:string;
 }

@@ -57,7 +57,7 @@ export class LoginComponent implements OnInit {
       formData.append("Password",this.data.password)
   
       console.log(this.loginObj)
-      this.api.Register(formData)
+      this.api.Login(formData)
         .subscribe(res => {
           alert("success");
         })
