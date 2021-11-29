@@ -20,4 +20,8 @@ export class ApiService{
   Login(empObj:any){
     return this._http.get<any>(this.APIUrl,empObj)
   }
+  Booking(empObj:any){
+    return this._http.get<any>(this.APIUrl,empObj)
+  }
+  
 }
