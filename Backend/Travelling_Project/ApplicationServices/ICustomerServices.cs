@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Registration;
 using System.Collections.Generic;
 
@@ -25,5 +25,7 @@ namespace ApplicationServices
        bool ResetPassword(ResetPasswordClass _resetPassword);
 
        bool EditProfile(EditProfileClass _editProfileClass);
-    }
+
+      bool EmailRegistration(EmailRegistrationClass emailRegistrationClass);
+  }
 }

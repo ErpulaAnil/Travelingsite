@@ -36,8 +36,22 @@ namespace Travelling_Project.Controllers
             }
         }
 
-        //Generating the EndPoint for SignIn
-        [HttpGet, Route("api/Travel/Login")]
+      [HttpPost, Route("api/Email/Registerr")]
+      public bool Registerr(EmailRegistrationClass emailRegistrationClass)
+      {
+        if (_customerServices.EmailRegistration(emailRegistrationClass))
+        {
+          return true;
+        }
+
+        else
+        {
+          return false;
+        }
+      }
+
+    //Generating the EndPoint for SignIn
+    [HttpGet, Route("api/Travel/Login")]
         public bool Login(ApplicationLogin _applicationLogin)
         {
             if (_customerServices.SignIn(_applicationLogin))

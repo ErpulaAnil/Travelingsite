@@ -53,8 +53,38 @@ namespace ApplicationServices
             return isSuccess;
         }
 
-        //This method is used to login the user whose get registered into registration table
-        public bool SignIn(ApplicationLogin _applicationLogin)
+    public bool EmailRegistration(EmailRegistrationClass emailRegistrationClass)
+    {
+      bool isSuccess = false;
+      try
+      {
+        using (_command = new SqlCommand($"INSERT INTO dbo.EmailRegistration VALUES ('" +
+            emailRegistrationClass.UserName + "','" + emailRegistrationClass.PhoneNumber+ "','" + emailRegistrationClass.CreateEmail + "','" +
+            emailRegistrationClass.ConfirmEmail + "','" + emailRegistrationClass.CreatePassword + "','" + emailRegistrationClass.ConfirmPassword+ "')", _connection))
+        {
+          if (_connection.State == System.Data.ConnectionState.Closed)
+            _connection.Open();
+
+          _command.ExecuteNonQuery();
+
+          isSuccess = true;
+        }
+      }
+      catch (Exception ex)
+      {
+        throw new TravellingException(ex.Message, ex);
+      }
+      finally
+      {
+        if (_connection.State == System.Data.ConnectionState.Open)
+          _connection.Close();
+      }
+
+      return isSuccess;
+    }
+
+    //This method is used to login the user whose get registered into registration table
+    public bool SignIn(ApplicationLogin _applicationLogin)
         {
             bool isSuccess = false;
             try
@@ -191,7 +221,7 @@ namespace ApplicationServices
                     SqlDataReader reader = _command.ExecuteReader();
 
                     while (reader?.Read() ?? false)
-                        _bookingCustomers.Add(new BookingClass() { Name= reader.GetString(0), PhnNo= reader.GetString(1), FromPlace = reader.GetString(2), ToPlace = reader.GetString(3), NoOfPassengers=reader.GetInt32(4), DateOfJourney = reader.GetString(5), DateOfDeparture = reader.GetString(6) });
+                        _bookingCustomers.Add(new BookingClass() { Name= reader.GetString(0), PhnNo= reader.GetString(1), FromPlace = reader.GetString(2), ToPlace = reader.GetString(3), NoOfPassengers=reader.GetString(4), DateOfJourney = reader.GetString(5), DateOfDeparture = reader.GetString(6) });
                 }
             }
             catch (Exception ex)

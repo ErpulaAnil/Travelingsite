@@ -36,7 +36,7 @@ namespace Registration
 
         public string ToPlace { get; set; }
 
-        public int NoOfPassengers { get; set; }
+        public string NoOfPassengers { get; set; }
 
         public string DateOfJourney { get; set; }
 
@@ -66,4 +66,19 @@ namespace Registration
 
         public string Nationality { get; set; }
     }
+
+  public class EmailRegistrationClass
+  {
+    public string UserName { get; set; }
+
+    public string PhoneNumber { get; set; }
+
+    public string CreateEmail { get; set; }
+
+    public string ConfirmEmail { get; set; }
+
+    public string CreatePassword { get; set; }
+
+    public string ConfirmPassword { get; set; }
+  }
 }

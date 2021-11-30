@@ -3,7 +3,7 @@
     "",
     "\\Backend",
     "\\Backend\\Travelling_Project",
-    "\\Backend\\Travelling_Project\\DatabaseConnection",
+    "\\Backend\\Travelling_Project\\ApplicationServices",
     "\\Backend\\Travelling_Project\\Registration",
     "\\Backend\\Travelling_Project\\Travelling_Project",
     "\\Backend\\Travelling_Project\\Travelling_Project\\Controllers",
@@ -11,6 +11,6 @@
     "\\src",
     "\\src\\app"
   ],
-  "SelectedNode": "\\Backend\\Travelling_Project\\Travelling_Project\\Startup.cs",
+  "SelectedNode": "\\Backend\\Travelling_Project\\Travelling_Project.sln",
   "PreviewInSolutionExplorer": false
 }

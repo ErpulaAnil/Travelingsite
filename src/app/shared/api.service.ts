@@ -7,7 +7,7 @@ import {map} from 'rxjs/operators'
 })
 export class ApiService{
 
-  readonly APIUrl = "http://localhost:47667/api/Travel/Register";
+  readonly APIUrl = "http://localhost:47667/api/Travel";
 
   constructor(private _http : HttpClient) { }
 
@@ -15,13 +15,14 @@ export class ApiService{
   Register(empObj : any){
     console.log("empobj.....",empObj);
     //return this._http.post<any>(this.loginAPIUrl+"signup",empObj)
-    return this._http.post<any>(this.APIUrl ,empObj)
+    return this._http.post<any>(this.APIUrl + '/Register' ,empObj)
   }
   Login(empObj:any){
-    return this._http.get<any>(this.APIUrl,empObj)
+    return this._http.get<any>(this.APIUrl + '/Login' ,empObj)
   }
-  Booking(empObj:any){
-    return this._http.post<any>(this.APIUrl,empObj)
+  Booking(empObj : any){
+    console.log("empobj.....",empObj); 
+    return this._http.post<any>(this.APIUrl + '/TravelBooking' ,empObj)
   }
   
 }
