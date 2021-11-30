@@ -31,6 +31,24 @@ export class BookingComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  onkey(event: any, type: string) {
+    if (type === 'name') {
+      this.data.name = event.target.value;
+    } else if (type === "phonenumber") {
+      this.data.phonenumber = event.target.value;
+    } else if (type === "from") {
+      this.data.from = event.target.value;
+    } else if (type === "to") {
+      this.data.to = event.target.value;
+    } else if (type === "noofpassengers") {
+      this.data.noofpassengers = event.target.value;
+    } else if (type === "dateofjourney") {
+      this.data.dateofjourney = event.target.value;
+    } else if (type === "dateofdeparture") {
+      this.data.dateofdeparture = event.target.value;
+    }
+  }
   Booking() {
     const formData = new FormData();
     

@@ -9,7 +9,7 @@
           type="email id"
           class="form-control"
           id="exampleInput email id"
-          
+          (keyup)="onkey($event, 'name')"
         />
       </div>
       <div class="form-group">
@@ -18,12 +18,13 @@
           type="Phone number"
           class="form-control"
           id="exampleInput Phone number"
+          (keyup)="onkey($event, 'phonenumber')"
         />
       </div>
       <div class="form-group">
         <label for="from">From</label>
         <br />
-        <select name="from" id="from">
+        <select name="from" id="from" (keyup)="onkey($event, 'from')">
           <option value="Hyderabd">Hyderabad</option>
           <option value="Warangal">Warangal</option>
           <option value="Karimnagar">Karimnagar</option>
@@ -34,7 +35,7 @@
       <div class="form-group">
         <label for="to">To</label>
         <br />
-        <select name="to" id="to">
+        <select name="to" id="to" (keyup)="onkey($event, 'to')">
           <option value="Hyderabd">Hyderabad</option>
           <option value="Warangal">Warangal</option>
           <option value="Karimnagar">Karimnagar</option>
@@ -43,15 +44,15 @@
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">No of Passengers</label></h3>
-        <input type="number" placeholder="number of people" />
+        <input type="number" placeholder="number of people" (keyup)="onkey($event, 'noofpassengers')" />
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">Date of Journey</label></h3>
-        <input type="date" />
+        <input type="date" (keyup)="onkey($event, 'dateofjourney')" />
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">Date of Departure</label></h3>
-        <input type="date" />
+        <input type="date" (keyup)="onkey($event, 'dateofdeparture')" />
       </div>
       <br />
       <button
