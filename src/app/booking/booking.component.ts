@@ -27,7 +27,7 @@ export class BookingComponent implements OnInit {
   }
   public bookingObj = new UserModel();
   constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
-  
+
   ngOnInit(): void {
   }
   Booking() {
@@ -44,7 +44,7 @@ export class BookingComponent implements OnInit {
     
 
     console.log(this.bookingObj)
-    this.api.Register(formData)
+    this.api.Booking(formData)
       .subscribe(res => {
         alert("success");
       })

@@ -23,12 +23,12 @@ import { HttpClient } from '@angular/common/http';
 
 export class LoginComponent implements OnInit {
   public data = {
-  email : "",
-  password: "",
+    email: "",
+    password: "",
   }
   valid = {
-  email : true,
-  password: true,
+    email: true,
+    password: true,
   }
   public loginObj = new UserModel();
   constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
@@ -40,26 +40,26 @@ export class LoginComponent implements OnInit {
     const emailPattern = /\S+@\S+\.\S+/;
     if (type === 'email') {
       this.valid.email = emailPattern.test(this.data.email);
-    } 
+    }
   }
 
   //onkey function
-    onkey(event:any , type:string){
-      if( type === "email"){
-        this.data.email = event.target.value;
-      }
-      this.validate(type)
+  onkey(event: any, type: string) {
+    if (type === "email") {
+      this.data.email = event.target.value;
     }
-    Login() {
-      const formData = new FormData();
-      
-      formData.append("Emailid",this.data.email)
-      formData.append("Password",this.data.password)
-  
-      console.log(this.loginObj)
-      this.api.Login(formData)
-        .subscribe(res => {
-          alert("success");
-        })
-    }
+    this.validate(type)
+  }
+  Login() {
+    const formData = new FormData();
+
+    formData.append("Emailid", this.data.email)
+    formData.append("Password", this.data.password)
+
+    console.log(this.loginObj)
+    this.api.Login(formData)
+      .subscribe(res => {
+        alert("success");
+      })
+  }
 }

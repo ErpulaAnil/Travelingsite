@@ -59,9 +59,9 @@ export class PasswordComponent implements OnInit {
   }
   Password() {
     const formData = new FormData();
-    formData.append("Emailid",this.data.email)
-    formData.append("CreatePassword",this.data.password)
-    
+    formData.append("Emailid", this.data.email)
+    formData.append("CreatePassword", this.data.password)
+
 
     console.log(this.passwordObj)
     this.api.Register(formData)
