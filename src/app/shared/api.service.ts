@@ -5,6 +5,13 @@ import {map} from 'rxjs/operators'
 @Injectable({
   providedIn: 'root'
 })
+
+/**
+ * @description created a class component with the name ApiService
+ * Connecting to the backend using url 
+ * @params {empObj}
+ * @Return Apiurl
+ */
 export class ApiService{
 
   readonly APIUrl = "http://localhost:47667/api/Travel/Register";
