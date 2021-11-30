@@ -28,7 +28,7 @@ export class BookingComponent implements OnInit {
   public bookingObj = new UserModel();
 
   constructor(private http: HttpClient, private router: Router, private api: ApiService) { }
-  
+
   ngOnInit(): void {
   }
   Booking() {

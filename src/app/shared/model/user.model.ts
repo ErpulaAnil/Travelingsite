@@ -1,3 +1,4 @@
+//Schema
 export class UserModel{
     UserName!:string;
     Emailid!: string;

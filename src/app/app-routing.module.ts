@@ -1,3 +1,8 @@
+/**
+ * Importing all dependencies
+ * Importing all the components from the app folder
+ * Performed Routing for all components
+ */
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';

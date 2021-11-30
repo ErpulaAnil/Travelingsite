@@ -99,12 +99,12 @@ export class RegisterComponent implements OnInit {
   }
   Register() {
     const formData = new FormData();
-    formData.append("UserName",this.data.username)
-    formData.append("Emailid",this.data.email)
-    formData.append("CreatePassword",this.data.password)
-    formData.append("Name",this.data.username)
-    formData.append("Age",this.data.age)
-    formData.append("phnNo",this.data.phonenumber)
+    formData.append("UserName", this.data.username)
+    formData.append("Emailid", this.data.email)
+    formData.append("CreatePassword", this.data.password)
+    formData.append("Name", this.data.username)
+    formData.append("Age", this.data.age)
+    formData.append("phnNo", this.data.phonenumber)
 
     console.log(this.registerObj)
     this.api.Register(formData)
