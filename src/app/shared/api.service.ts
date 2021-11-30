@@ -1,17 +1,10 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-// import { pipe } from 'rxjs';
-// import {map} from 'rxjs/operators'
+import { pipe } from 'rxjs';
+import {map} from 'rxjs/operators'
 @Injectable({
   providedIn: 'root'
 })
-
-/**
- * @description created a class component with the name ApiService
- * Connecting to the backend using url 
- * @params {empObj}
- * @Return Apiurl
- */
 export class ApiService{
 
   readonly APIUrl = "http://localhost:47667/api/Travel";
@@ -25,11 +18,11 @@ export class ApiService{
     return this._http.post<any>(this.APIUrl + '/Register' ,empObj)
   }
   Login(empObj:any){
-    return this._http.get<any>(this.APIUrl + '/Login' ,empObj)
+    return this._http.get<any>(this.APIUrl,empObj)
   }
   Booking(empObj : any){
     console.log("empobj.....",empObj); 
-    return this._http.post<any>(this.APIUrl + '/TravelBooking' ,empObj)
+    return this._http.post<any>(this.APIUrl + '/TicketBooking',empObj)
   }
   
 }
