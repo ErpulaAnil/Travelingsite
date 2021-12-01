@@ -21,10 +21,20 @@
           (keyup)="onkey($event, 'phonenumber')"
         />
       </div>
+      <!-- <div class="form-group">
+        <label for="exampleInputPassword1">Phone number</label>
+        <input
+          type="Phone number"
+          class="form-control"
+          id="exampleInput Phone number"
+          (keyup)="onkey($event, 'from')"
+        />
+      </div> -->
       <div class="form-group">
         <label for="from">From</label>
         <br />
-        <select name="from" id="from" (keyup)="onkey($event, 'from')">
+        <select name="from" id="from" (change)="onkey($event, 'from')">
+          <option value="Hyderabd">Select</option>
           <option value="Hyderabd">Hyderabad</option>
           <option value="Warangal">Warangal</option>
           <option value="Karimnagar">Karimnagar</option>
@@ -35,7 +45,8 @@
       <div class="form-group">
         <label for="to">To</label>
         <br />
-        <select name="to" id="to" (keyup)="onkey($event, 'to')">
+        <select name="to" id="to" (change)="onkey($event, 'to')">
+          <option value="Hyderabd">Select</option>
           <option value="Hyderabd">Hyderabad</option>
           <option value="Warangal">Warangal</option>
           <option value="Karimnagar">Karimnagar</option>
@@ -44,15 +55,15 @@
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">No of Passengers</label></h3>
-        <input type="number" placeholder="number of people" (keyup)="onkey($event, 'noofpassengers')" />
+        <input type="number" placeholder="number of people" (change)="onkey($event, 'noofpassengers')" />
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">Date of Journey</label></h3>
-        <input type="date" (keyup)="onkey($event, 'dateofjourney')" />
+        <input type="date" (change)="onkey($event, 'dateofjourney')" />
       </div>
       <div class="form-group">
         <h3><label for="exampleInputPassword1">Date of Departure</label></h3>
-        <input type="date" (keyup)="onkey($event, 'dateofdeparture')" />
+        <input type="date" (change)="onkey($event, 'dateofdeparture')" />
       </div>
       <br />
       <button

@@ -53,12 +53,12 @@ export class BookingComponent implements OnInit {
     const formData = new FormData();
     
     formData.append("Name",this.data.name)
-    formData.append("Phonenumber",this.data.phonenumber)
-    formData.append("From",this.data.from)
-    formData.append("To",this.data.to)
-    formData.append("Noofpassengers",this.data.noofpassengers)
-    formData.append("Dateofjourney",this.data.dateofjourney)
-    formData.append("Dateofdeparture",this.data.dateofdeparture)
+    formData.append("PhnNo",this.data.phonenumber)
+    formData.append("FromPlace",this.data.from)
+    formData.append("ToPlace",this.data.to)
+    formData.append("NoOfPassengers",this.data.noofpassengers)
+    formData.append("DateOfJourney",this.data.dateofjourney)
+    formData.append("DateOfDeparture",this.data.dateofdeparture)
 
     
 
